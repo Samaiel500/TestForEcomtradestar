@@ -23,6 +23,12 @@ btnCalc.addEventListener('click', e => {
     overlayCalc.style.display = 'block';
 })
 
+overlayCalc.addEventListener('click', e => {
+    if (e.target === overlayCalc) {
+        overlayCalc.style.display = 'none';
+    }
+})
+
 const zero = '0';
 let cur = '';
 num.forEach(elem => {
@@ -76,4 +82,17 @@ imgForm.forEach(elem => {
             e.target.previousElementSibling.setAttribute('disabled', 'disabled');
         }
     })
+})
+
+overlay.addEventListener('click', e => {
+    if (e.target === overlay) {
+        overlay.style.display = 'none';
+    }
+})
+
+document.addEventListener('keydown', e => {
+    if (e.code === 'Escape') {
+        overlay.style.display = 'none';
+        overlayCalc.style.display = 'none';
+    }
 })
