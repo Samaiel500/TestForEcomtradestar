@@ -66,9 +66,14 @@ const imgForm = document.querySelectorAll('.ready-form__img');
 
 formBtn.addEventListener('click', e => {
     e.preventDefault();
-    overlay.style.display = 'block';
-    readyName.value = inputName.value;
-    readyNumber.value = inputNumber.value;
+    if (/^((\+7|7|8)+([0-9]){10})$/.test(inputNumber.value)) {
+        inputNumber.style.border = '1px solid #ADADAD';
+        overlay.style.display = 'block';
+        readyName.value = inputName.value;
+        readyNumber.value = inputNumber.value;
+    } else {
+        inputNumber.style.border = '2px solid red';
+    }
 })
 
 imgForm.forEach(elem => {
