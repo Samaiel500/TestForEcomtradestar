@@ -1,0 +1,37 @@
+.advantages {
+    padding: 54px 0 49px 0;
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #000000;
+        margin-bottom: 22px;
+    }
+    &__wrap {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    &__card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-img {
+            margin-bottom: 22px;
+        }
+        &-text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #000000;
+        }
+    }
+}

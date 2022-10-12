@@ -1,0 +1,60 @@
+.description {
+    padding-top: 30px;
+    padding-bottom: 78px;
+    background: #3D53A4;
+    &__wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 96px;
+    }
+    &__title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        span {
+            font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            margin-left: 30px;
+        }
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        margin-top: 25px;
+        &-first {
+            font-weight: 700;
+        }
+        &-second {
+            font-weight: 400;
+        }
+    }
+}
+
+.btn-calc {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 60px;
+    background: #FFB800;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-top: 45px;
+}

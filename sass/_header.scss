@@ -1,0 +1,36 @@
+.header {
+    background-image: url(../img/main-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 492px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__text {
+        font-family: 'Roboto';
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 82px;
+    }
+    &__sub-title {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 33px;
+        margin-top: 26px;
+    }
+    &__descr {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
