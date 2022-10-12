@@ -1,14 +1,16 @@
 .advantages {
     padding: 54px 0 49px 0;
-    &__title {
+    &__text {
         font-family: 'Roboto';
         font-style: normal;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 35px;
         text-align: center;
         letter-spacing: 0.03em;
         color: #000000;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
         margin-bottom: 22px;
     }
     &__wrap {
@@ -24,14 +26,9 @@
             margin-bottom: 22px;
         }
         &-text {
-            font-family: 'Roboto';
-            font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 23px;
-            text-align: center;
-            letter-spacing: 0.03em;
-            color: #000000;
         }
     }
 }
