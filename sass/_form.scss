@@ -33,12 +33,6 @@
         background: #FFFFFF;
         border: 1px solid #ADADAD;
         border-radius: 5px;
-        &:invalid {
-            border: 2px solid red;
-        }
-        &:valid {
-            border: 1px solid #ADADAD;
-        }
         &::placeholder {
             font-family: 'Open Sans';
             font-style: normal;
